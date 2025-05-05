@@ -1,0 +1,25 @@
+﻿
+.charts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    margin-top: 20px;
+    gap: 20px;
+}
+
+    .charts .chart {
+        background-color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+
+    @media (max-width:768px){
+        .charts {
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            margin-top: 20px;
+            gap: 20px;
+        }
+    }

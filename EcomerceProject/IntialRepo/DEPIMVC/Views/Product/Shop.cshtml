@@ -1,0 +1,161 @@
+﻿@model List<ProductVm>
+<section class="shop-section">
+    <div class="shop-header">
+        <h1>Shop Collection</h1>
+        <p>Discover our latest styles and trends</p>
+    </div>
+
+    <button class="filter-toggle">Show Filters</button>
+
+    <div class="shop-container">
+        <div class="shop-filters">
+            <div class="filter-section">
+                <h3>Search</h3>
+                <div class="search-filter">
+                    <input type="text"
+                           class="search-input"
+                           placeholder="Search products-shop..." />
+                    <span class="search-icon">🔍</span>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Categories</h3>
+                <div class="checkbox-filter">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="tshirts" />
+                        T-Shirts
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="shirts" /> Shirts
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="jeans" /> Jeans
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="jackets" />
+                        Jackets
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="dresses" />
+                        Dresses
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="category" value="shoes" /> Footwear
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Sizes</h3>
+                <div class="checkbox-filter">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="size" value="xs" /> XS
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="size" value="s" /> S
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="size" value="m" /> M
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="size" value="l" /> L
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="size" value="xl" /> XL
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="size" value="xxl" /> XXL
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Price Range</h3>
+                <input type="range"
+                       min="0"
+                       max="200"
+                       value="100"
+                       class="price-range"
+                       id="priceRange" />
+                <div class="price-values">
+                    <span>$0</span>
+                    <span id="priceValue">$100</span>
+                    <span>$200</span>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3>Colors</h3>
+                <div class="checkbox-filter">
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="color" value="black" /> Black
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="color" value="white" /> White
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="color" value="blue" /> Blue
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="color" value="red" /> Red
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="color" value="green" /> Green
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="color" value="yellow" /> Yellow
+                    </label>
+                </div>
+            </div>
+
+            <button class="clear-filters">Clear All Filters</button>
+        </div>
+
+        <div class="products-shop-area">
+            <div class="products-shop-top">
+                <div class="products-shop-count">Showing 12 of 36 products-shop</div>
+                <select class="sort-dropdown">
+                    <option>Sort by: Featured</option>
+                    <option>Price: Low to High</option>
+                    <option>Price: High to Low</option>
+                    <option>Newest First</option>
+                    <option>Best Selling</option>
+                </select>
+            </div>
+
+            <div class="products-shop-container">
+                <!-- Product-shop 1 -->
+                @foreach (ProductVm productVm in Model)
+                {
+                    <div class="product-shop-card">
+                        <div class="product-shop-image">
+                            <img src="/@productVm.Image" alt="Premium T-Shirt" />
+                            <div class="product-shop-badge">New</div>
+                        </div>
+                        <div class="product-shop-details">
+                            <h3 class="product-shop-title">@(productVm?.Name??"Na")</h3>
+                            <div class="product-shop-category">@(productVm?.CatigoryName??"Na")</div>
+                            <div class="product-shop-price">
+                                <div>
+                                    <span class="price">$@(productVm?.Price??0)</span>
+                                </div>
+                                <a class="details" asp-action="GetById" asp-controller="Product" asp-route-id="@productVm.Id">Details</a>
+                                <button class="add-to-cart-shop">+</button>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+            <div class="pagination">
+                <div class="page-item disabled">«</div>
+                <div class="page-item active">1</div>
+                <div class="page-item">2</div>
+                <div class="page-item">3</div>
+                <div class="page-item">»</div>
+            </div>
+        </div>
+    </div>
+</section>
+

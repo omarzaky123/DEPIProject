@@ -1,0 +1,52 @@
+﻿@model ProductVationInsertVm
+@{
+    Layout = "Admin/_AdminLayout";
+    SelectList selectListItems01 = new SelectList(ViewBag.Products, "Id", "Name");
+    SelectList selectListItems02 = new SelectList(ViewBag.Vartions, "Id", "Name");
+}
+<form asp-action="Edit" >
+    <div class="container">
+        <div class="text">
+            <label asp-for="VartionValue"></label>
+            <input asp-for="VartionValue" />
+            <span asp-validation-for="VartionValue"></span>
+        </div>
+
+        <div class="text">
+            <label asp-for="AddtionalPrice"></label>
+            <input asp-for="AddtionalPrice"></input>
+            <span asp-validation-for="AddtionalPrice"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Quantity_In_Stock"></label>
+            <input asp-for="Quantity_In_Stock" ></input>
+            <span asp-validation-for="Quantity_In_Stock"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ProductID">Product</label>
+            <select asp-for="ProductID" asp-items="selectListItems01" class="form-control">
+                <option value="0">-- Select Product --</option>
+            </select>
+            <span asp-validation-for="ProductID" class="text-danger"></span>
+        </div>
+        <div class="text">
+            <label asp-for="VartionID">Vartion</label>
+            <select asp-for="VartionID" asp-items="selectListItems02" class="form-control">
+                <option value="0">-- Select Vartion --</option>
+            </select>
+            <span asp-validation-for="VartionID" class="text-danger"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" style="color:red;"></div>
+        </div>
+    </div>
+
+</form>
+
+@section Scripts {
+    <script src="~/js/Admin/cascadedropdown.js">
+    </script>
+
+    <partial name="_ValidationScriptsPartial"></partial>
+}

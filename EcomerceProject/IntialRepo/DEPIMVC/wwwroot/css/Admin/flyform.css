@@ -1,0 +1,84 @@
+﻿/* start disapperform */
+.disapper-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    z-index: 1000;
+    display: none;
+    min-width: 40%;
+}
+
+
+    .disapper-form.grid {
+        display: grid;
+        z-index:1000;
+    }
+
+    .disapper-form .text {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+        .disapper-form .text input,
+        .disapper-form .text select,
+        .disapper-form .text-area textarea {
+            outline: none;
+            border: 1px solid #d9d9d9;
+            padding: 5px 5px;
+            border-radius: 5px;
+            caret-color: var(--main-color);
+            font-size: 15px;
+        }
+
+        .disapper-form .text label,
+        .disapper-form .text-area label {
+            font-size: 15px;
+            color: #727272;
+            transition: var(--main-transtion);
+        }
+
+    .disapper-form .submit {
+        grid-column: span 2;
+        text-align: center;
+    }
+
+        .disapper-form .submit input {
+            width: 30%;
+            margin-bottom: 10px;
+            outline: none;
+            border: none;
+            padding: 10px 12px;
+            border-radius: 5px;
+            background-color: var(--main-color);
+            color: white;
+            font-size: 15px;
+            transition: var(--main-transtion);
+        }
+
+    .disapper-form .text-area {
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+@media (max-width: 768px) {
+    .disapper-form {
+        position: absolute;
+        top: 15%;
+        width: 90%;
+    }
+
+        .disapper-form .text {
+            grid-column: span 2;
+        }
+
+        .disapper-form .submit input {
+            width: 70%;
+        }
+}

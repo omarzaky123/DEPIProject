@@ -1,0 +1,17 @@
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\bin\Debug\net8.0\DEPI.EF.deps.json
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\bin\Debug\net8.0\DEPI.EF.runtimeconfig.json
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\bin\Debug\net8.0\DEPI.EF.dll
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\bin\Debug\net8.0\DEPI.EF.pdb
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\bin\Debug\net8.0\DEPI.Core.dll
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\bin\Debug\net8.0\DEPI.Core.pdb
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.csproj.AssemblyReference.cache
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.AssemblyInfoInputs.cache
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.AssemblyInfo.cs
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.csproj.CoreCompileInputs.cache
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.csproj.Up2Date
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.dll
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\refint\DEPI.EF.dll
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.pdb
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\DEPI.EF.genruntimeconfig.cache
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.EF\obj\Debug\net8.0\ref\DEPI.EF.dll

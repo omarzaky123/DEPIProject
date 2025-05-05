@@ -1,0 +1,561 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DEPIMVC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DEPIMVC.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\019f53ad-f5db-4c47-8910-9e9f663f5fc9_istockphoto-1553638267-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\019f53ad-f5db-4c47-8910-9e9f663f5fc9_istockphoto-1553638267-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\05b18008-f60f-43b6-954e-7adf16693d1c_istockphoto-1328049157-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\05b18008-f60f-43b6-954e-7adf16693d1c_istockphoto-1328049157-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\0820e7af-90ea-43d9-a92f-a14b911a5aad_istockphoto-1172488818-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\0820e7af-90ea-43d9-a92f-a14b911a5aad_istockphoto-1172488818-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\0972e35c-f3bf-4f8b-80d1-deee4c0b0851_istockphoto-1249496770-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\0972e35c-f3bf-4f8b-80d1-deee4c0b0851_istockphoto-1249496770-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\13fc0e93-b0fd-4dbe-a6ac-dfd5e2b1c15e_istockphoto-173239968-1024x1024 (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\13fc0e93-b0fd-4dbe-a6ac-dfd5e2b1c15e_istockphoto-173239968-1024x1024 (1).jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\2583caef-4d28-4e1f-aae2-4c4def4f5201_istockphoto-173239968-1024x1024 (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\2583caef-4d28-4e1f-aae2-4c4def4f5201_istockphoto-173239968-1024x1024 (1).jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\2d6169da-2849-4db5-91d2-5ce3ba7ed49e_istockphoto-173239968-1024x1024 (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\2d6169da-2849-4db5-91d2-5ce3ba7ed49e_istockphoto-173239968-1024x1024 (1).jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\31345a07-6568-4973-b015-65deaf90c1cc_istockphoto-1172488818-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\31345a07-6568-4973-b015-65deaf90c1cc_istockphoto-1172488818-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\39dc50ae-ef90-4054-9362-1c09b3f68b65_istockphoto-1076492576-1024x1024.jpg",
+      "PackagePath": "staticwebassets\\Images\\39dc50ae-ef90-4054-9362-1c09b3f68b65_istockphoto-1076492576-1024x1024.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\3bdaea9a-7fff-487f-b93c-4f57df15eeeb_istockphoto-1076492576-1024x1024.jpg",
+      "PackagePath": "staticwebassets\\Images\\3bdaea9a-7fff-487f-b93c-4f57df15eeeb_istockphoto-1076492576-1024x1024.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\4601b7ce-512e-401c-b907-40c7a43b3edc_istockphoto-1076492576-1024x1024.jpg",
+      "PackagePath": "staticwebassets\\Images\\4601b7ce-512e-401c-b907-40c7a43b3edc_istockphoto-1076492576-1024x1024.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\48d2d129-6e62-4e54-878e-31b181b5e7d9_istockphoto-942160230-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\48d2d129-6e62-4e54-878e-31b181b5e7d9_istockphoto-942160230-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\5a277137-5237-4121-8783-772f8927dda9_istockphoto-173239968-1024x1024 (1).jpg",
+      "PackagePath": "staticwebassets\\Images\\5a277137-5237-4121-8783-772f8927dda9_istockphoto-173239968-1024x1024 (1).jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\742f0e9d-a427-46f3-9979-5dd7a2c8b0c6_istockphoto-942160230-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\742f0e9d-a427-46f3-9979-5dd7a2c8b0c6_istockphoto-942160230-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\7f2d6d19-9580-400f-a1ca-bbf700fb0a53_istockphoto-157567639-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\7f2d6d19-9580-400f-a1ca-bbf700fb0a53_istockphoto-157567639-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\7f81e6ef-90f1-48d4-b5a3-dc23c9eb2610_istockphoto-1249496770-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\7f81e6ef-90f1-48d4-b5a3-dc23c9eb2610_istockphoto-1249496770-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\8034d49d-52f5-4d54-a0b0-ca3123d8307a_istockphoto-157567639-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\8034d49d-52f5-4d54-a0b0-ca3123d8307a_istockphoto-157567639-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\9270a4b9-4a32-4f1a-bb2a-ad084d63fcca_istockphoto-1249496770-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\9270a4b9-4a32-4f1a-bb2a-ad084d63fcca_istockphoto-1249496770-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\ad91cdd3-9927-4a39-9990-723677930e1f_istockphoto-157567639-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\ad91cdd3-9927-4a39-9990-723677930e1f_istockphoto-157567639-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\b34b7af2-e320-4492-9243-4d690ce19b4e_istockphoto-157567639-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\b34b7af2-e320-4492-9243-4d690ce19b4e_istockphoto-157567639-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\cd0a5f8c-6017-4197-b139-23f2d70a0e96_istockphoto-1726430041-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\cd0a5f8c-6017-4197-b139-23f2d70a0e96_istockphoto-1726430041-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\e06a4feb-ce4b-4c73-bd7f-9620e2027fee_istockphoto-173239968-1024x1024.jpg",
+      "PackagePath": "staticwebassets\\Images\\e06a4feb-ce4b-4c73-bd7f-9620e2027fee_istockphoto-173239968-1024x1024.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\fa285960-4e4d-4a70-b3ab-1f011ceae55b_istockphoto-1249496770-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\fa285960-4e4d-4a70-b3ab-1f011ceae55b_istockphoto-1249496770-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\fb78d467-b88e-4b05-9301-9e26f74e4ed3_istockphoto-157567639-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\fb78d467-b88e-4b05-9301-9e26f74e4ed3_istockphoto-157567639-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\istockphoto-1293366109-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\istockphoto-1293366109-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\Images\\istockphoto-929088840-2048x2048.jpg",
+      "PackagePath": "staticwebassets\\Images\\istockphoto-929088840-2048x2048.jpg"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\admin.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\admin.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\bodyoverlay.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\bodyoverlay.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\box.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\box.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\buttons.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\buttons.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\charts.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\charts.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\flyform.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\flyform.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\form.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\form.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\input.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\input.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\interface.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\interface.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\menu.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\menu.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\pagination.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\pagination.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\scroll.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\scroll.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\states.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\states.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Admin\\table.css",
+      "PackagePath": "staticwebassets\\css\\Admin\\table.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\Shop.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\Shop.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\catigory.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\catigory.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\footer.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\footer.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\header.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\header.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\hero.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\hero.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\imageslider.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\imageslider.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\newletter.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\newletter.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\order.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\order.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\product.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\product.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\productdetails.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\productdetails.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\register.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\register.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\responsive.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\section.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\section.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\setting.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\setting.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\Guset\\shopcard.css",
+      "PackagePath": "staticwebassets\\css\\Guset\\shopcard.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\normalize.css",
+      "PackagePath": "staticwebassets\\css\\normalize.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Admin\\cascadedropdown.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\cascadedropdown.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Admin\\dropthemenulist.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\dropthemenulist.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Admin\\newbuttonopenform.js",
+      "PackagePath": "staticwebassets\\js\\Admin\\newbuttonopenform.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Guset\\getbyidguset.js",
+      "PackagePath": "staticwebassets\\js\\Guset\\getbyidguset.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Guset\\getbyidmangeaddtocard.js",
+      "PackagePath": "staticwebassets\\js\\Guset\\getbyidmangeaddtocard.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Guset\\mangeshopping.js",
+      "PackagePath": "staticwebassets\\js\\Guset\\mangeshopping.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Guset\\showshoppinggotoorder.js",
+      "PackagePath": "staticwebassets\\js\\Guset\\showshoppinggotoorder.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\Guset\\sliderimage.js",
+      "PackagePath": "staticwebassets\\js\\Guset\\sliderimage.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\deletesweetalert.js",
+      "PackagePath": "staticwebassets\\js\\deletesweetalert.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "D:\\asp.net course\\myprojects\\DEPI\\EcomerceProject\\IntialRepo\\DEPIMVC\\wwwroot\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DEPIMVC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DEPIMVC.props",
+      "PackagePath": "build\\DEPIMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DEPIMVC.props",
+      "PackagePath": "buildMultiTargeting\\DEPIMVC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DEPIMVC.props",
+      "PackagePath": "buildTransitive\\DEPIMVC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

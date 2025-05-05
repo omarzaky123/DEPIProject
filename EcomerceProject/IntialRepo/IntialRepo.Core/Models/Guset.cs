@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DEPI.Core.Models
+{
+    public class Guset
+    {
+        public int Id { get; set; }
+
+        [ForeignKey("User")]
+        public string UserId { get; set; }
+
+        public virtual ApplicationUser User { get; set; }
+        public virtual ICollection<ShoppingCart>  ShoppingCarts{ get; set; }
+        public virtual ICollection<Order> Orders{ get; set; }
+    }
+}

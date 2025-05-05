@@ -1,0 +1,32 @@
+﻿<!-- start the menu -->
+<div class="menu">
+    <div class="logo">
+        <h2>DashBoard</h2>
+    </div>
+    <div class="items">
+        <li class="btn-menu"><i class="fa-solid fa-user-shield"></i> <a>Admin</a> <i class="fa-solid fa-arrow-down"></i></li>
+        <div class="hidden-menu">
+            <a asp-action="NewAdmin" asp-controller="Account"><li><i class="fa-solid fa-plus"></i>Add New Admin</li></a>
+        </div>
+        <li class="btn-menu"><i class="fa-solid fa-user-shield"></i> <a>Catigory</a> <i class="fa-solid fa-arrow-down"></i></li>
+        <div class="hidden-menu">
+            <a asp-action="Insert" asp-controller="Catigory"><li><i class="fa-solid fa-plus"></i>Catigory</li></a>
+            <a asp-action="Insert" asp-controller="Vartion"><li><i class="fa-solid fa-plus"></i>New Vartion</li></a>
+        </div>
+
+        <li class="btn-menu"><i class="fa-solid fa-user-shield"></i> <a>Product</a> <i class="fa-solid fa-arrow-down"></i></li>
+        <div class="hidden-menu">
+            <a asp-action="Insert" asp-controller="Product"><li><i class="fa-solid fa-plus"></i>Product</li></a>
+            <a asp-action="Insert" asp-controller="ProductVartion"><li><i class="fa-solid fa-plus"></i>New ProductVartion</li></a>
+        </div>
+
+
+        <li class="btn-menu"><i class="fa-solid fa-user-shield"></i> <a>Order</a> <i class="fa-solid fa-arrow-down"></i></li>
+        <div class="hidden-menu">
+            <a asp-action="GetAll" asp-controller="Order"><li><i class="fa-solid fa-plus"></i>Orders</li></a>
+        </div>
+        <a asp-action="Index" asp-controller="Home"><li><i class="fa-solid fa-house"></i>Home</li></a>
+        <a asp-action="Logout" asp-controller="Account"><li><i class="fa-solid fa-right-from-bracket"></i> Logout</li></a>
+    </div>
+</div>
+<!-- end the menu -->

@@ -1,0 +1,122 @@
+﻿@model ProductInsertVm
+@{
+    Layout = "Admin/_AdminLayout";
+    SelectList selectListItems = new SelectList(ViewBag.Catigorys, "Id", "Name");
+}
+
+<h2>Product</h2>
+<div class="new">
+    <div class="input-new">
+        <a>New</a>
+    </div>
+</div>
+
+<form asp-action="Insert" class="new-catigory-form" enctype="multipart/form-data">
+    <div class="container">
+        <div class="text">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" value="" />
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <div class="text">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" value="" />
+
+            <span asp-validation-for="Price"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ImageFile"></label>
+            <input asp-for="ImageFile" value="" />
+            <span asp-validation-for="ImageFile"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ProductImagesFiles"></label>
+            <input asp-for="ProductImagesFiles" value=""  multiple/>
+            <span asp-validation-for="ProductImagesFiles"></span>
+        </div>
+        <div class="text">
+            <label asp-for="CatigoryId">Catigory</label>
+            <select asp-for="CatigoryId" asp-items="selectListItems" class="form-control">
+                <option value="0">-- Select Catigory --</option>
+            </select>
+            <span asp-validation-for="CatigoryId" class="text-danger"></span>
+        </div>
+        <div class="text-area">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" value=""></textarea>
+            <span asp-validation-for="Description"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" style="color:red;"></div>
+        </div>
+    </div>
+
+</form>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Image</td>
+                <td>Description</td>
+                <td>Price</td>
+                <td>CatigoryName</td>
+                <td>TotalNumberOfStock</td>
+            </tr>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ProductVm prd in ViewBag.Products)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(prd?.Name ?? "Na")</h5>
+                        </div>
+                    </td>
+                    <td class="person">
+                        <img src="~/@prd.Image" alt="Not Found" />
+                    </td>
+                    <td class="role">
+                        <p class="text">@(prd?.Description ?? "Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(prd?.Price ?? 0)</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(prd?.CatigoryName??"Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(prd?.TotalNumberOfStock ?? 0)</p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="edit" asp-action="Edit" asp-controller="Product" asp-route-id="@prd.Id">Edit</a></p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="Delete" asp-controller="Product" asp-route-id="@prd.Id"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="detail" asp-action="Details" asp-controller="Product" asp-route-id="@prd.Id">Details</a></p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section FlyForm {
+    <div class="fly-form"></div>
+}
+
+@section Scripts {
+    <script src="~/js/deletesweetalert.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="~/js/Admin/newbuttonopenform.js"></script>
+    <partial name="_ValidationScriptsPartial"></partial>
+}
+

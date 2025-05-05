@@ -1,0 +1,52 @@
+﻿@model RegisterVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+
+<h2 class="name">NewAdmin</h2>
+
+<div class="new">
+    <div class="input-new">
+        <a>New</a>
+    </div>
+</div>
+<!-- start Form -->
+<form asp-action="Register"   asp-route-Role="Admin" class="new-catigory-form">
+
+    <div class="container">
+        <div class="text">
+            <label asp-for="Username"></label>
+            <input asp-for="Username" />
+            <span asp-validation-for="Username"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Password"></label>
+            <input asp-for="Password" />
+            <span asp-validation-for="Password"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ConfirmPassword"></label>
+            <input asp-for="ConfirmPassword" />
+            <span asp-validation-for="ConfirmPassword"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Email"></label>
+            <input asp-for="Email" />
+            <span asp-validation-for="Email"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Address"></label>
+            <input asp-for="Address" />
+            <span asp-validation-for="Address"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" class="text" style="color:red"></div>
+        </div>
+
+    </div>
+
+</form>
+<script src="~/js/Admin/newbuttonopenform.js"></script>
+<partial name="_ValidationScriptsPartial"></partial>
+<!-- End Form -->

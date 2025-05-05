@@ -1,0 +1,88 @@
+﻿/* start Table */
+.board, .board-fly {
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    overflow: auto;
+}
+
+.board-fly {
+    position: absolute;
+    opacity: 0;
+    transition: 0.05s;
+}
+
+    .board table, .board-fly table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        .board table tr:not(:last-of-type),
+        .board table thead tr,
+        .board-fly table tr:not(:last-of-type),
+        .board-fly table thead tr {
+            border-bottom: 1px solid rgb(201, 201, 201);
+        }
+
+        .board table tr td,
+        .board-fly table tr td {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .board table thead,
+        .board-fly table thead {
+            background-color: white;
+        }
+
+            .board table thead td,
+            .board-fly table thead td {
+                text-transform: uppercase;
+                
+            }
+
+tbody .person {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+    tbody .person img {
+        width: 50px;
+        margin-right: 5px;
+    }
+
+tbody p {
+    color: #777;
+}
+
+tbody h5 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+tbody .status .text {
+    background-color: rgb(184, 255, 184);
+    width: fit-content;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+}
+
+tbody a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    tbody a.edit,
+    tbody a.detail {
+        background-color: var(--main-color);
+    }
+
+    tbody a.delete {
+        background-color: red;
+    }
+
+/* End Table */

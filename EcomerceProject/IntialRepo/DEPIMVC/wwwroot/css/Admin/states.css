@@ -1,0 +1,16 @@
+﻿.true-state {
+    background-color: #93ff93;
+    color: white;
+    border-radius: 8px;
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+}
+.false-state {
+    background-color: #F44336;
+    color: white;
+    border-radius: 8px;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+}

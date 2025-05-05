@@ -1,0 +1,74 @@
+﻿ @model List<OrderWithRelatedOrderItemsVm>
+<section class="orders-section">
+    <div class="orders-header">
+        <h1>My Orders</h1>
+        <p>View your order history and track shipments</p>
+    </div>
+
+    <!-- Order Cards -->
+    @foreach (OrderWithRelatedOrderItemsVm order in Model)
+    {
+        <div class="order-card">
+            <div class="order-header">
+                <div class="order-info">
+                    <span class="order-id">@(order?.Id??0)</span>
+                    <span class="order-date">Placed on @(order?.Created_At.ToString()??"Na")</span>
+                </div>
+                <div class="order-status status-delivered">@(order?.Status??"Na")</div>
+            </div>
+            <div class="order-details">
+                <div class="order-items">
+                    @foreach (OrderItemVm orderItemVm in order.OrderItems)
+                    {
+                        <div class="order-item">
+                            <div class="item-image">
+                                <img src="/api/placeholder/80/80" alt="Premium T-Shirt" />
+                            </div>
+                            <div class="item-details">
+                                <h3>Premium T-Shirt</h3>
+                                <p>White | Size: Medium</p>
+                                <p>Quantity: @(orderItemVm?.Quantity??0)</p>
+                                <p class="item-price">$55</p>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="order-summary">
+                    <div class="summary-col">
+                        <h3>@(ViewBag?.Address??"Na")</h3>
+                        <div class="address-info">
+                            <p>@(User?.Identity?.Name??"Na")</p>
+                            <p>123 Main Street</p>
+                            <p>Apartment 4B</p>
+                        </div>
+                    </div>
+                    <div class="summary-col">
+                        <h3>Payment Method</h3>
+                        <div class="payment-info">
+                            <p>Visa ending in 4242</p>
+                            <p>Total: $@(order?.TotalAmount??0)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-total">
+                    <span>Total Paid</span>
+                    <span>$@(order?.TotalAmount ?? 0)</span>
+                </div>
+                <div class="order-actions">
+                    @if(order.Status=="Wating"){
+                        <a class="action-btn view-btn" asp-action="DeleteGuset" asp-controller="Order" asp-route-id="@order.Id">Delete</a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="orders-empty" style="display: none">
+        <p>You haven't placed any orders yet.</p>
+        <a href="#" class="continue-shopping">Start Shopping</a>
+    </div>
+</section>
+
+<script src="~/js/deletesweetalert.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+

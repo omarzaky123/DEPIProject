@@ -1,0 +1,148 @@
+﻿/* Registration Form Styles */
+.register-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    min-height: 100vh;
+}
+
+.register-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    text-align: center;
+}
+span{
+    color:red;
+}
+.register-header {
+    margin-bottom: 30px;
+}
+
+    .register-header h1 {
+        color: #2d3748;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .register-header p {
+        color: #666;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 500;
+        color: #2d3748;
+    }
+
+.form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: #5c6ac4;
+        outline: none;
+    }
+
+.register-btn {
+    background-color: #5c6ac4;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+    .register-btn:hover {
+        background-color: #4a56a0;
+    }
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    color: #666;
+}
+
+    .divider:before,
+    .divider:after {
+        content: "";
+        flex: 1;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .divider span {
+        padding: 0 10px;
+    }
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+    .social-btn:hover {
+        background-color: #f5f5f5;
+        transform: translateY(-2px);
+    }
+
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+    .login-link a {
+        color: #5c6ac4;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
+
+        .login-link a:hover {
+            text-decoration: underline;
+        }
+
+.form-remeberme{
+    display:flex;
+}
+    .form-remeberme input {
+        margin: 0 0 0 9px;
+    }
+    .form-remeberme label {
+        display: block;
+        font-weight: 500;
+        color: #2d3748;
+    }

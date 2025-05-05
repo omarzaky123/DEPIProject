@@ -1,0 +1,139 @@
+﻿    <!-- Enhanced Hero Section -->
+<section class="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="circle-shape circle-1"></div>
+    <div class="circle-shape circle-2"></div>
+
+
+
+     <div class="hero-slider">
+      <div class="slides">
+        <div class="slide active">
+          <img
+            src="/Images/istockphoto-1293366109-2048x2048.jpg"
+            alt="Fashion Model"
+          />
+        </div>
+            <div class="slide active">
+                <img src="/Images/istockphoto-929088840-2048x2048.jpg"
+                     alt="Fashion Model" />
+            </div>
+
+      </div>
+
+      <button class="slider-arrow prev-arrow">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="slider-arrow next-arrow">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+
+      <div class="slider-indicators">
+        <button class="indicator active" data-index="0"></button>
+        <button class="indicator" data-index="1"></button>
+        <button class="indicator" data-index="2"></button>
+      </div>
+    </div> 
+
+</section>
+
+<!-- Stats Section -->
+<section class="stats">
+    <div class="stats-container">
+        <div class="stat-item">
+            <div class="stat-number">10K+</div>
+            <div class="stat-label">Happy Customers</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">200+</div>
+            <div class="stat-label">Brand Partners</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">50+</div>
+            <div class="stat-label">Awards Won</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">24/7</div>
+            <div class="stat-label">Customer Support</div>
+        </div>
+    </div>
+</section>
+
+<!-- Featured Categories -->
+<section class="categories">
+    <h2 class="section-title">Shop by Category</h2>
+    <p class="section-subtitle">
+        Explore our wide range of fashion categories to find exactly what you're
+        looking for
+    </p>
+    <div class="category-grid">
+        @foreach (CatigoryVm catigoryVm in ViewBag.Catigorys)
+        {
+            <a href="#" class="category-card">
+                <img src="@catigoryVm.Image"
+                     alt="Men's Fashion" />
+                <div class="category-name">@(catigoryVm?.Name??"NA")</div>
+            </a>
+        }
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="products">
+    <div class="product-container">
+        <h2 class="section-title">Featured Products</h2>
+        <p class="section-subtitle">
+            Handpicked selection of premium quality products just for you
+        </p>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            @foreach (ProductVm prd in ViewBag.Products)
+            {
+                
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="@prd.Image"
+                             alt="Classic White T-shirt" />
+                        <div class="product-tag new-tag">New</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">@(prd?.Name??"NA")</h3>
+                        <div class="product-category">@(prd?.CatigoryName ?? "NA")</div>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(128)</span>
+                        </div>
+                        <div class="product-price">@(prd?.Price.ToString()?? "NA")</div>
+                        <a class="details" asp-action="GetById" asp-controller="Product" asp-route-id="@prd.Id">Details</a>
+                        <a class="add-to-cart">Add to Cart</a>
+                    </div>
+                </div>
+
+
+            }
+        </div>
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="newsletter">
+    <div class="newsletter-container">
+        <h2 class="section-title">Join Our Newsletter</h2>
+        <p>
+            Subscribe to our newsletter and be the first to know about new
+            collections, seasonal lookbooks and exclusive offers.
+        </p>
+        <form class="newsletter-form">
+            <input type="email"
+                   class="newsletter-input"
+                   placeholder="Your email address"
+                   required />
+            <button type="submit" class="newsletter-button">Subscribe</button>
+        </form>
+    </div>
+</section>
+<script src="~/js/Guset/sliderimage.js"></script>

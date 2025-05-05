@@ -1,0 +1,16 @@
+﻿
+
+.see-detail-btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px;
+}
+    .see-detail-btn a {
+        background: var(--main-color);
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        cursor:pointer;
+        text-decoration:none;
+    }

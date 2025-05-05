@@ -1,0 +1,75 @@
+﻿@model OrderFullModelVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+<h2 class="name">OrderDetails</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Address</td>
+                <td>Status</td>
+                <td>Created_At</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="title">
+                    <div class="text">
+                        <h5>@(Model?.Guset?.User?.UserName ?? "Na")</h5>
+                    </div>
+                </td>
+                <td class="role">
+                    <p class="text">@(Model?.Guset?.User?.Address ?? "Na")</p>
+                </td>
+                <td class="role">
+                    <p class="text">@(Model?.Status ?? "Na")</p>
+                </td>
+                <td class="role">
+                    <p class="text">@(Model?.Created_At.ToString() ?? "Na")</p>
+                </td>
+            </tr>
+        </tbody>
+
+
+
+    </table>
+</div>
+<h2 class="name">OrderItems</h2>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>ProductName</td>
+                <td>CatigoryName</td>
+                <td>VartionValue</td>
+                <td>Quantity</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (OrderItemFullModel orderItemFullModel in Model.OrderItems)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(orderItemFullModel?.ProductVartion?.Product?.Name ?? "Na")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(orderItemFullModel?.ProductVartion?.Product?.CatigoryName ?? "Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(orderItemFullModel?.ProductVartion?.VartionValue ?? "Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(orderItemFullModel?.Quantity ?? 0)</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+

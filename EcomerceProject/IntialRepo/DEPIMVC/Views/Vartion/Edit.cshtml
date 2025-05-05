@@ -1,0 +1,27 @@
+﻿@model VartionInsertVm
+@{
+    Layout = "Admin/_AdminLayout";
+    SelectList selectListItems = new SelectList(ViewBag.Catigorys, "Id", "Name");
+}
+<form asp-action="Edit">
+
+    <div class="container">
+        <div class="text">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="text">
+            <label asp-for="CatigoryId">Catigory</label>
+            <select asp-for="CatigoryId" asp-items="selectListItems" class="form-control">
+                <option value="0">-- Select Catigory --</option>
+            </select>
+            <span asp-validation-for="CatigoryId" class="text-danger"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" style="color:red;"></div>
+        </div>
+    </div>
+
+</form>

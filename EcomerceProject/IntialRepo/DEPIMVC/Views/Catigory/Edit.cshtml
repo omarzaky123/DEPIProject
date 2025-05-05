@@ -1,0 +1,29 @@
+﻿@model CatigoryVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+<form asp-action="Edit" enctype="multipart/form-data">
+
+    <div class="container">
+        <div class="text">
+            <label asp-for="Name"></label>
+            <input asp-for="Name"  />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="text">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" />
+            <span asp-validation-for="Description"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ImageFile"></label>
+            <input asp-for="ImageFile" />
+            <span asp-validation-for="ImageFile"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" class="text" style="color:red"></div>
+        </div>
+    </div>
+
+</form>

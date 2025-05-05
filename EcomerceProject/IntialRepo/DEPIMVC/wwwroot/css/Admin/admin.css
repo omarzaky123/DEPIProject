@@ -1,0 +1,49 @@
+body {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    background-color: #eee;
+    position: relative;
+}
+a{
+    cursor:pointer;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --main-padding: 20px;
+    --menu-width: 300px;
+    --main-transtion: 0.3s;
+    --main-color: #009dff;
+}
+
+/*start media Query*/
+@media (max-width: 992px) {
+    .menu {
+        width: calc(var(--menu-width) - 30px);
+        position: fixed;
+        left: -270px;
+    }
+
+    .interface {
+        flex: 1;
+        margin-left: 0;
+        position: relative;
+    }
+
+        .interface .nav > i {
+            display: block;
+        }
+
+    .nav .searchbox {
+        margin-left: 10px;
+        padding: 5px;
+    }
+}
+
+/*End media Query*/

@@ -1,0 +1,40 @@
+﻿@model LoginVm
+<section class="register-section">
+    <div class="register-container">
+        <div class="register-header">
+            <h1>Create an Account</h1>
+            <p>Join StyleHub to enjoy shopping online</p>
+        </div>
+
+        <form  asp-action="Login" asp-controller="Account" id="register-form">
+            <div class="form-group">
+                <label asp-for="UserName" for="username">Username</label>
+                <input asp-for="UserName" class="form-control" placeholder="Choose a username"/>
+                <span asp-validation-for="UserName"></span>
+            </div>
+
+            <div class="form-group">
+                <label  asp-for="Password" for="email"></label>
+                <input asp-for="Password" class="form-control" placeholder="Enter your Gmail address"/>
+                <span asp-validation-for="Password"></span>
+            </div>
+
+            <div class="form-remeberme">
+                <label asp-for="RememberMe" for="address"></label>
+                <input asp-for="RememberMe"/>
+                <span asp-validation-for="RememberMe"></span>
+            </div>
+
+            <div asp-validation-summary="ModelOnly" class="text" style="color:red"></div>
+            <button type="submit"  class="register-btn">Login</button>
+        </form>
+        <div class="login-link">
+            Register <a asp-action="Register" asp-controller="Account" asp-route-Url="/Home/Index">Login here</a>
+        </div>
+    </div>
+</section>
+
+<partial name="_ValidationScriptsPartial"></partial>
+
+
+

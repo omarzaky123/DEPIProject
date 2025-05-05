@@ -1,0 +1,63 @@
+﻿@model VartionWithVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+<h2 class="name">Vartion</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>CatigoryName</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="title">
+                    <div class="text">
+                        <h5>@(Model?.Name ?? "Na")</h5>
+                    </div>
+                </td>
+                <td class="role">
+                    <p class="text">@(Model?.Catigory.Name ?? "Na")</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<h2 class="name">Details</h2>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Value</td>
+                <td>Product</td>
+                <td>QuntityInStock</td>
+                <td>Addtional Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ProductVationVm productVartionVm in Model.ProductVartions)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(productVartionVm?.VartionValue ?? "Na")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(productVartionVm?.Product?.Name ?? "Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(productVartionVm?.Quantity_In_Stock ?? 0)</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(productVartionVm?.AddtionalPrice ?? 0)</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

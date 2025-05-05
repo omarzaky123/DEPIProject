@@ -1,0 +1,816 @@
+[
+  {
+    "ContainingType": "DEPIAPI.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DEPIAPI.DTO.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.AccountController",
+    "Method": "Logout",
+    "RelativePath": "api/Account/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register/{Role}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DEPIAPI.DTO.RegisterModel",
+        "IsRequired": true
+      },
+      {
+        "Name": "Role",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.AccountController",
+    "Method": "Role",
+    "RelativePath": "api/Account/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleVm",
+        "Type": "DEPIAPI.DTO.Role",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntialRepo.Controllers.AuthorController",
+    "Method": "GetById",
+    "RelativePath": "api/Author",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntialRepo.Controllers.AuthorController",
+    "Method": "GetByIdAsync",
+    "RelativePath": "api/Author/GetAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntialRepo.Controllers.BookController",
+    "Method": "GetById",
+    "RelativePath": "api/Book",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntialRepo.Controllers.BookController",
+    "Method": "Insert",
+    "RelativePath": "api/Book",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IntialRepo.Controllers.BookController",
+    "Method": "GetSpecial",
+    "RelativePath": "api/Book/GetSpecial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CartItemController",
+    "Method": "GetById",
+    "RelativePath": "api/CartItem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetByIDdynamicSearchTheUrl"
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CartItemController",
+    "Method": "Delete",
+    "RelativePath": "api/CartItem/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CartItemController",
+    "Method": "Insert",
+    "RelativePath": "api/CartItem/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CartDTO",
+        "Type": "DEPIAPI.DTO.CartItemDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CatigoryController",
+    "Method": "Delete",
+    "RelativePath": "api/Catigory/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CatigoryController",
+    "Method": "Edit",
+    "RelativePath": "api/Catigory/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newCatDTO",
+        "Type": "DEPIAPI.DTO.CatigoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CatigoryController",
+    "Method": "Index",
+    "RelativePath": "api/Catigory/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CatigoryController",
+    "Method": "GetById",
+    "RelativePath": "api/Catigory/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetByIDCatTheUrl"
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CatigoryController",
+    "Method": "GetByIdWithRelatedPrd",
+    "RelativePath": "api/Catigory/GetByIdWithRelatedPrd/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.CatigoryController",
+    "Method": "Insert",
+    "RelativePath": "api/Catigory/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "catigoryDTO",
+        "Type": "DEPIAPI.DTO.CatigoryDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.GusetController",
+    "Method": "GetByUserId",
+    "RelativePath": "api/Guset/ByUser/{userid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderController",
+    "Method": "GetById",
+    "RelativePath": "api/Order/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetByIDOrderdynamicSearchTheUrl"
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderController",
+    "Method": "Delete",
+    "RelativePath": "api/Order/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderController",
+    "Method": "Edit",
+    "RelativePath": "api/Order/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "neworderDTO",
+        "Type": "DEPIAPI.DTO.OrderDTOInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderController",
+    "Method": "GetAll",
+    "RelativePath": "api/Order/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderController",
+    "Method": "GetAllByGuset",
+    "RelativePath": "api/Order/GetAllByGuset/{gusetid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gusetid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderController",
+    "Method": "GetByIdWithItems",
+    "RelativePath": "api/Order/GetByIdWithItems/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderController",
+    "Method": "Insert",
+    "RelativePath": "api/Order/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "OrderDTO",
+        "Type": "DEPIAPI.DTO.OrderDTOInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderItemController",
+    "Method": "GetById",
+    "RelativePath": "api/OrderItem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetByIDOrderItemdynamicSearchTheUrl"
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.OrderItemController",
+    "Method": "Insert",
+    "RelativePath": "api/OrderItem/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderItemDTO",
+        "Type": "DEPIAPI.DTO.OrderItemInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "GetById",
+    "RelativePath": "api/Product/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "Edit",
+    "RelativePath": "api/Product/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newPrdDTO",
+        "Type": "DEPIAPI.DTO.ProductInsertDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "Index",
+    "RelativePath": "api/Product/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Product/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "GetByIdOnlyProduct",
+    "RelativePath": "api/Product/GetByIdOnlyProduct/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "GetRelatedProudctImage",
+    "RelativePath": "api/Product/GetRelatedProudctImage/{productid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductController",
+    "Method": "Insert",
+    "RelativePath": "api/Product/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productInsertDTO",
+        "Type": "DEPIAPI.DTO.ProductInsertDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductVartionController",
+    "Method": "Delete",
+    "RelativePath": "api/ProductVartion/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductVartionController",
+    "Method": "Edit",
+    "RelativePath": "api/ProductVartion/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newprdvartionDTO",
+        "Type": "DEPIAPI.DTO.ProductVartionDTOInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductVartionController",
+    "Method": "GetAllWithPrd",
+    "RelativePath": "api/ProductVartion/GetAllWithPrd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductVartionController",
+    "Method": "GetById",
+    "RelativePath": "api/ProductVartion/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetByIDPRDVarTheUrl"
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductVartionController",
+    "Method": "GetByIdWithPrd",
+    "RelativePath": "api/ProductVartion/GetByIdWithPrd/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ProductVartionController",
+    "Method": "Insert",
+    "RelativePath": "api/ProductVartion/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productInsertDTO",
+        "Type": "DEPIAPI.DTO.ProductVartionDTOInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ShoppingCartController",
+    "Method": "GetById",
+    "RelativePath": "api/ShoppingCart/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetByIDdynamicSearchTheUrlCart"
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ShoppingCartController",
+    "Method": "GetByGusetId",
+    "RelativePath": "api/ShoppingCart/ByGusetId/{gusetId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gusetId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ShoppingCartController",
+    "Method": "Delete",
+    "RelativePath": "api/ShoppingCart/Delete/{shopcartid}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shopcartid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ShoppingCartController",
+    "Method": "GetByGusetid",
+    "RelativePath": "api/ShoppingCart/GusetId/{gusetId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "gusetId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ShoppingCartController",
+    "Method": "Insert",
+    "RelativePath": "api/ShoppingCart/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shoppinCartDTO",
+        "Type": "DEPIAPI.DTO.ShoppinCartDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.ShoppingCartController",
+    "Method": "RelatedCard",
+    "RelativePath": "api/ShoppingCart/RelatedCard/{shopcartid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "shopcartid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.VartionController",
+    "Method": "Delete",
+    "RelativePath": "api/Vartion/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.VartionController",
+    "Method": "Edit",
+    "RelativePath": "api/Vartion/Edit",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vartionInsertDTO",
+        "Type": "DEPIAPI.DTO.VartionInsertDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.VartionController",
+    "Method": "Index",
+    "RelativePath": "api/Vartion/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.VartionController",
+    "Method": "GetById",
+    "RelativePath": "api/Vartion/GetById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "GetByIDVarTheUrl"
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.VartionController",
+    "Method": "GetByProductId",
+    "RelativePath": "api/Vartion/GetByProductId/{productid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "productid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.VartionController",
+    "Method": "GetWithCatigory",
+    "RelativePath": "api/Vartion/GetWithCatigory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DEPIAPI.Controllers.VartionController",
+    "Method": "Insert",
+    "RelativePath": "api/Vartion/Insert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vartionInsertDTO",
+        "Type": "DEPIAPI.DTO.VartionInsertDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

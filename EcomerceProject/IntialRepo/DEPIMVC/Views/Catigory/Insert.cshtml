@@ -1,0 +1,89 @@
+﻿@model CatigoryVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+
+<h2>Catigorys</h2>
+<div class="new">
+    <div class="input-new">
+        <a>New</a>
+    </div>
+</div>
+
+<form asp-action="Insert" class="new-catigory-form" enctype="multipart/form-data">
+    <div class="container">
+        <div class="text">
+            <label asp-for="Name"></label>
+            <input asp-for="Name" value="" />
+            <span asp-validation-for="Name"></span>
+        </div>
+        <div class="text-area">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" value=""></textarea>
+            <span asp-validation-for="Description"></span>
+        </div>
+
+        <div class="text">
+            <label asp-for="ImageFile"></label>
+            <input asp-for="ImageFile" value="" />
+            <span asp-validation-for="ImageFile"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" style="color:red;"></div>
+        </div>
+    </div>
+
+</form>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (CatigoryVm catigory in ViewBag.catigoryVms)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(catigory?.Name??"Na")</h5>
+                        </div>
+                    </td>
+                    <td class="person">
+                        <img src="~/@catigory.Image" alt="Not Found" />
+                    </td>
+                    <td class="role">
+                        <p class="text">@(catigory?.Description??"Na")</p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="edit" asp-action="Edit" asp-controller="Catigory" asp-route-id="@catigory.Id">Edit</a></p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="Delete" asp-controller="Catigory" asp-route-id="@catigory.Id"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="detail" asp-action="GetById" asp-controller="Catigory" asp-route-id="@catigory.Id">Details</a></p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section FlyForm {
+    <div class="fly-form"></div>
+}
+
+@section Scripts {
+    <script src="~/js/deletesweetalert.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script  src="~/js/Admin/newbuttonopenform.js"></script>
+    <partial name="_ValidationScriptsPartial"></partial>
+}
+

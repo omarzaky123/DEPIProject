@@ -1,0 +1,51 @@
+﻿@model ProductInsertVm
+@{
+    Layout = "Admin/_AdminLayout";
+    SelectList selectListItems = new SelectList(ViewBag.Catigorys, "Id", "Name");
+}
+<form asp-action="Edit" enctype="multipart/form-data">
+
+    <div class="container">
+        <div class="text">
+            <label asp-for="Name"></label>
+            <input asp-for="Name"  />
+            <span asp-validation-for="Name"></span>
+        </div>
+
+        <div class="text">
+            <label asp-for="Price"></label>
+            <input asp-for="Price" />
+            <span asp-validation-for="Price"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ImageFile"></label>
+            <input asp-for="ImageFile" />
+            <span asp-validation-for="ImageFile"></span>
+        </div>
+        <div class="text">
+            <label asp-for="ProductImagesFiles"></label>
+            <input asp-for="ProductImagesFiles" />
+            <span asp-validation-for="ProductImagesFiles"></span>
+        </div>
+        <div class="text">
+            <label asp-for="CatigoryId">Catigory</label>
+            <select asp-for="CatigoryId" asp-items="selectListItems" class="form-control">
+                <option value="0">-- Select Catigory --</option>
+            </select>
+            <span asp-validation-for="CatigoryId" class="text-danger"></span>
+        </div>
+        <div class="text-area">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description"></textarea>
+            <span asp-validation-for="Description"></span>
+        </div>
+        <div class="submit">
+            <input type="submit" />
+            <div asp-validation-summary="All" style="color:red;"></div>
+        </div>
+    </div>
+
+</form>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial"></partial>
+}

@@ -1,0 +1,30 @@
+﻿/* start pagination */
+.pagination-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+
+    .pagination-items .pag-item {
+        margin-right: 5px;
+        padding: 3px 8px 3px 8px;
+        border: 1px solid var(--main-color);
+        cursor: pointer;
+        background-color: white;
+    }
+
+        .pagination-items .pag-item.active {
+            background-color: var(--main-color);
+            color: white;
+        }
+
+            .pagination-items .pag-item.active a {
+                color: white;
+            }
+
+        .pagination-items .pag-item a {
+            text-decoration: none;
+            color: black;
+        }
+/* end pagination */

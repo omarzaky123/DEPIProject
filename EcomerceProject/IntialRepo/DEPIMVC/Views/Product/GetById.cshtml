@@ -1,0 +1,180 @@
+﻿@model ProductVm
+<section class="product-detail-section">
+    <div class="product-details-container">
+        <div class="product-details-gallery">
+            <div class="main-image">
+                <img src="/@(Model.Image)" alt="Premium Cotton T-Shirt" />
+            </div>
+            <div class="thumbnail-container">
+                @foreach (ProductImageInsertVm productImageInsertVm in Model.ProductImages)
+                {
+                    <div class="thumbnail active">
+                        <img src="/@productImageInsertVm.Image" alt="Thumbnail 1" />
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="product-details-info">
+            <h1 class="product-details-title">@(Model?.Name??"Na") </h1>
+            <div class="product-details-category">@(Model?.CatigoryName??"Na")</div>
+
+            <div class="product-details-rating">
+                <div class="stars">★★★★☆</div>
+                <div class="review-count">(24 reviews)</div>
+            </div>
+
+            <div class="product-details-price">
+                    <span class="current-price">$@(Model?.Price.ToString() ?? "NA")</span>
+                    <span class="original-price">$@(Model?.Price.ToString() ?? "NA")</span>
+                    <span class="discount-badge">$@(Model?.Price.ToString() ?? "NA")</span>
+            </div>
+
+            <p class="product-details-description">
+               @(Model?.CatigoryDescription??"Na")
+            </p>
+
+            <div class="product-details-meta">
+                <div class="meta-item">
+                    <span class="meta-label">Total Availability:</span>
+                    <span class="meta-value">In Stock (@(Model?.TotalNumberOfStock??0) items)</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">@(Model?.CatigoryName??"Na")</span>
+                    <span class="meta-value">@(Model?.CatigoryName ?? "Na")</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Availability:</span>
+                    <span class="meta-value quantity-for-option">In Stock ()</span>
+                </div>
+            </div>
+
+            @if (Model.VartionName == "Color")
+            {
+                <div class="color-selector">
+                    <div class="color-title">Color:</div>
+                    <div class="color-options">
+                        @foreach (ProductVationVm PVM in Model.RelatedProductVartions)
+                        {
+                            if (PVM.Quantity_In_Stock > 0)
+                            {
+                                <div class="color-option option" value="@(PVM.Id)" quntity="@(PVM.Quantity_In_Stock)" style="background-color: @(PVM.VartionValue);"></div>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div class="size-selector">
+                <div class="size-title">@Model.VartionName:</div>
+                <div class="size-options">
+                        @foreach (ProductVationVm PVM in Model.RelatedProductVartions)
+                        {
+                            if (PVM.Quantity_In_Stock > 0)
+                            {
+                                <div class="size-option option" value="@(PVM.Id)" quntity="@(PVM.Quantity_In_Stock)">@(PVM?.VartionValue ?? "Na")</div>
+                            }
+                        }
+                </div>
+            </div>
+            }
+
+            <div class="quantity-selector">
+                <div class="quantity-title">Quantity:</div>
+                <div class="quantity-control">
+                    <button class="quantity-btn">-</button>
+                    <input type="number" class="quantity-input" value="1" min="1" max="10" />
+                    <button class="quantity-btn">+</button>
+                </div>
+            </div>
+
+            <div class="action-buttons">
+                <button class="add-to-cart-btn"><a class="Add-To-Cart">Add to Cart</a></button>
+                <button class="wishlist-btn">Add to Wishlist</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-details-tabs">
+        <div class="tab-header">
+            <button class="tab-btn active" data-tab="description">Description</button>
+            <button class="tab-btn" data-tab="specs">Specifications</button>
+        </div>
+
+        <div class="tab-content active" id="description">
+            <h3>Product Details</h3>
+            <p>
+                @(Model?.Description??"Na")
+            </p>
+            <p>
+                Features:
+                <ul>
+                    <li>Classic crew neck design</li>
+                    <li>Short sleeves with double-stitched hems</li>
+                    <li>Pre-shrunk fabric to maintain shape</li>
+                    <li>Reinforced shoulder seams for durability</li>
+                    <li>Tagless label for added comfort</li>
+                </ul>
+            </p>
+            <p>
+                Care Instructions: Machine wash cold with like colors, tumble dry low or hang to dry,
+                do not bleach, iron on low heat if needed.
+            </p>
+        </div>
+
+        <div class="tab-content" id="specs">
+            <table class="specs-table">
+                <tr>
+                    <th>Name</th>
+                    <td>@(Model?.Name??"Na")</td>
+                </tr>
+                <tr>
+                    <th>Catigory</th>
+                    <td>@(Model?.CatigoryName ?? "Na")</td>
+                </tr>
+                <tr>
+                    <th>Price</th>
+                    <td>@(Model?.Price??0)</td>
+                </tr>
+                <tr>
+                    <th>Colors</th>
+                    <td>
+                        @foreach (ProductVationVm PVM in Model.RelatedProductVartions)
+                        {
+                            <span>@(PVM.VartionValue),</span>
+                        }
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    <div class="related-products">
+        <h2 class="section-title">You May Also Like</h2>
+        <div class="related-grid">
+
+                @foreach (ProductVm productVm in Model.RelatedProduct)
+                {
+                    <div class="related-product">
+                        <div class="related-image">
+                    <img src="/@(productVm.Image)" alt="Related Product 1" />
+                </div>
+                <div class="related-details">
+                    <h3 class="related-title">@(productVm?.Name??"Na")</h3>
+                            <div class="related-price">$@(productVm?.Price ?? 0)</div>
+                            <a class="details" asp-action="GetById" asp-controller="Product" asp-route-id="@productVm.Id">Details</a>
+                </div>
+                </div>
+                }
+        </div>
+    </div>
+
+</section>
+
+
+@section Scripts {
+    <script src="~/js/Guset/getbyidguset.js"></script>
+    <script src="~/js/Guset/getbyidmangeaddtocard.js">
+
+    </script>
+}

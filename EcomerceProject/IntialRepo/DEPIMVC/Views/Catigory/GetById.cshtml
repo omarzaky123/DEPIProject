@@ -1,0 +1,65 @@
+﻿@model CatigoryWithPrdsVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+<h2 class="name">Related Product</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Description</td>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(Model?.Name??"Na")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(Model?.Description??"Na")</p>
+                    </td>
+                </tr>
+        </tbody>
+
+
+
+    </table>
+</div>
+<h2 class="name">Related Product</h2>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Description</td>
+                <td>Price</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (ProductVm productVm in Model.Products)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(productVm?.Name ?? "Na")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(productVm?.Description ?? "Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(productVm?.Price ?? 0)</p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
+
+
+

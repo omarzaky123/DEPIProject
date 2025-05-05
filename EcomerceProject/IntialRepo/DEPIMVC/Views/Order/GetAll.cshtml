@@ -1,0 +1,68 @@
+﻿@model List<OrderFullModelVm>
+@{
+    Layout = "Admin/_AdminLayout";
+}
+
+<h2>Orders</h2>
+
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>UserName</td>
+                <td>Status</td>
+                <td>TotalAmount</td>
+                <td>Address</td>
+                <td>Created_At</td>
+            </tr>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (OrderFullModelVm Order in Model)
+            {
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5> @(Order?.Guset.User.UserName ?? "Na")</h5> 
+                        </div>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(Order?.Status ?? "Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(Order?.TotalAmount ?? 0)</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(Order?.Guset.User.Address ?? "Na")</p>
+                    </td>
+                    <td class="role">
+                        <p class="text">@(Order?.Created_At.ToString() ?? "Na")</p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="edit" asp-action="Edit" asp-controller="Order" asp-route-id="@Order.Id">Edit</a></p>
+                    </td>
+                    <td class="control">
+                        <p class="text">
+                            <a class="delete" asp-action="DeleteGuset" asp-route-Return="GetAll" asp-controller="Order" asp-route-id="@Order.Id"><i class="fa-solid fa-trash"></i></a>
+                        </p>
+                    </td>
+                    <td class="control">
+                        <p class="text"><a class="detail" asp-action="Details" asp-controller="Order" asp-route-id="@Order.Id">Details</a></p>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+@section FlyForm {
+    <div class="fly-form"></div>
+}
+
+@section Scripts {
+    <script src="~/js/deletesweetalert.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <partial name="_ValidationScriptsPartial"></partial>
+}
+

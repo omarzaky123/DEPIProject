@@ -1,0 +1,12 @@
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\bin\Debug\net8.0\DEPI.Core.deps.json
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\bin\Debug\net8.0\DEPI.Core.dll
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\bin\Debug\net8.0\DEPI.Core.pdb
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\DEPI.Core.csproj.AssemblyReference.cache
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\DEPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\DEPI.Core.AssemblyInfoInputs.cache
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\DEPI.Core.AssemblyInfo.cs
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\DEPI.Core.csproj.CoreCompileInputs.cache
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\DEPI.Core.dll
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\refint\DEPI.Core.dll
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\DEPI.Core.pdb
+D:\asp.net course\myprojects\DEPI\EcomerceProject\IntialRepo\IntialRepo.Core\obj\Debug\net8.0\ref\DEPI.Core.dll

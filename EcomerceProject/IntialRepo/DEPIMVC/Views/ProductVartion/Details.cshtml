@@ -1,0 +1,64 @@
+﻿@model ProductVationVm
+@{
+    Layout = "Admin/_AdminLayout";
+}
+<h2 class="name">Product Vartion</h2>
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>VartionValue</td>
+                <td>Quantity</td>
+                <td>AddtionalPrice</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="title">
+                    <div class="text">
+                        <h5>@(Model?.VartionValue ?? "Na")</h5>
+                    </div>
+                </td>
+                <td class="role">
+                    <p class="text">@(Model?.Quantity_In_Stock ?? 0)</p>
+                </td>
+                <td class="role">
+                    <p class="text">@(Model?.AddtionalPrice ?? 0)</p>
+                </td>
+            </tr>
+        </tbody>
+
+
+
+    </table>
+</div>
+<h2 class="name">Related Product</h2>
+
+<div class="board">
+    <table>
+        <thead>
+            <tr>
+                <td>Name</td>
+                <td>Price</td>
+                <td>CatigoryName</td>
+            </tr>
+        </thead>
+        <tbody>
+                <tr>
+                    <td class="title">
+                        <div class="text">
+                            <h5>@(Model.Product?.Name ?? "Na")</h5>
+                        </div>
+                    </td>
+                    <td class="role">
+                    <p class="text">@(Model.Product?.Price ?? 0)</p>
+                    </td>
+                    <td class="role">
+                    <p class="text">@(Model.Product?.CatigoryName ?? "Na")</p>
+                    </td>
+                </tr>
+
+        </tbody>
+    </table>
+
+</div>

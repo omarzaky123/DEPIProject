@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <title>AdmindashBoard</title>
+    <partial name="Admin/_CssLinksAdmin" />
+</head>
+<body>
+    <!-- start the Menu -->
+    @await RenderSectionAsync("ConfirmMSG", required: false)
+    <partial name="Admin/_Menu"></partial>
+    <!-- End the Menu -->
+    <!-- start the interface -->
+    <div class="spinner-container">
+        <div class="spinner"></div>
+    </div>
+    <div class="interface">
+        <!-- start the nav -->
+        <div class="nav">
+            <i class="fas fa-bars"> </i>
+
+            <div class="searchbox" style="  visibility: hidden;">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search" />
+            </div>
+            <div class="profile">
+@*                 @if (User.IsInRole("SuperAdmin") || User.IsInRole("Admin"))
+                {
+                    <a asp-action="DateLocalStorge" asp-controller="Date"> <i style="color:black;" class="fa-solid fa-bell"></i></a>
+                }
+                @inject UserManager<ApplicationUser> UserManager
+
+                @{
+                    var user = await UserManager.GetUserAsync(User);
+                    var imagePath = user?.Image; // "Image" is the column name in the database
+                    if (imagePath != null)
+                    {
+                        <img src="~/@imagePath" alt="" />
+                    }
+                } *@
+            </div>
+        </div>
+        <!-- End the nav -->
+
+        <div class="content">
+
+            @RenderBody()
+        </div>
+    </div>
+    @await RenderSectionAsync("FlyForm", required: false)
+
+
+</body>
+
+<script src="~/js/Admin/dropthemenulist.js"></script>
+@await RenderSectionAsync("Scripts", required: false)
+
+</html>
+
